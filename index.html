@@ -261,7 +261,6 @@
                     spotifyStatusElement.innerHTML = '<i class="fab fa-spotify"></i> <p>currently not listening...</p>';
                 }
             } catch (error) {
-                subtextElement.textContent = "Error fetching status";
                 spotifyStatusElement.innerHTML = '<i class="fab fa-spotify"></i> <p>currently not listening...</p>';
                 console.error("Error fetching presence data:", error);
             }
